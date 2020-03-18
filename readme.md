@@ -7,4 +7,7 @@ Compilation of Python projects
    + Python with PostgreSQL with Vagrant set up
 + Modern Python 3 Bootcamp
    + HTTP_Requests
+   + File IO
+   + CSV File
+   + Pickling
    + Web Scraping

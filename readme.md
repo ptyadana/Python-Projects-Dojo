@@ -1,6 +1,7 @@
 # Python Dojo + Projects
 Compilation of Python projects
 
++ API HTTP Request
 + JSON with Python
 + Python DB-API
    + Python with SQL Lite

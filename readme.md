@@ -7,8 +7,11 @@ Compilation of Python projects
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up
 + Modern Python 3 Bootcamp
-   + HTTP_Requests
-   + File IO
-   + CSV File
-   + Pickling
-   + Web Scraping
+   + 06.Numbers, Operators, and Comments
+   + 07.Variables and Strings
+   + 08.Boolean and Conditional Logic
+   + 23.HTTP_Requests
+   + 30.File IO
+   + 31.01.CSV File
+   + 31.02.Pickling
+   + 32.Web Scraping

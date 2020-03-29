@@ -6,7 +6,11 @@ Compilation of Python projects
 + Python DB-API
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up
-+ Modern Python 3 Bootcamp
++ **Complete Python Bootcamp - JP**
+   + MyFirstNoteBook
+   + DVDRental Notebook
+   + misc python files
++ **Modern Python 3 Bootcamp**
    + 06.Numbers, Operators, and Comments
    + 07.Variables and Strings
    + 08.Boolean and Conditional Logic

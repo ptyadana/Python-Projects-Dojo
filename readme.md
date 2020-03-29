@@ -6,10 +6,14 @@ Compilation of Python projects
 + Python DB-API
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up
+   
+-------------------
+
 + **Complete Python Bootcamp - JP**
    + MyFirstNoteBook
    + DVDRental Notebook
    + misc python files
+   
 + **Modern Python 3 Bootcamp**
    + 06.Numbers, Operators, and Comments
    + 07.Variables and Strings
@@ -19,3 +23,6 @@ Compilation of Python projects
    + 31.01.CSV File
    + 31.02.Pickling
    + 32.Web Scraping
+  
++ **Complete Python Developer - Zero to Mastery**
+   + 01.Python Basics

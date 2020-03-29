@@ -14,7 +14,7 @@ Compilation of Python projects
    + DVDRental Notebook
    + misc python files
    
-+ **Modern Python 3 Bootcamp**
++ **Modern Python 3 Bootcamp - CS**
    + 06.Numbers, Operators, and Comments
    + 07.Variables and Strings
    + 08.Boolean and Conditional Logic
@@ -24,5 +24,5 @@ Compilation of Python projects
    + 31.02.Pickling
    + 32.Web Scraping
   
-+ **Complete Python Developer - Zero to Mastery**
++ **Complete Python Developer - Zero to Mastery - AN**
    + 01.Python Basics

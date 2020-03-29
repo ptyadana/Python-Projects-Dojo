@@ -33,3 +33,8 @@ new_cart = amazon_cart[:]
 new_cart[0] = "Vitamin"
 print(amazon_cart)
 print(new_cart)
+
+a,b,c = ["A","B","C"]
+print(a)
+print(b)
+print(c)

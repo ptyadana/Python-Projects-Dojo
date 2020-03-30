@@ -9,6 +9,7 @@ Compilation of Python projects
 + Python Mini Projects
    + Magic 8 balls : seek out your future
    + Guessing Game: train your guessing muscle
+   + Your Weight on different planets : curious how much you gonna weight on different planets?
 -------------------
 
 + **Complete Python Bootcamp - JP**

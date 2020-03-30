@@ -29,3 +29,4 @@ Compilation of Python projects
   
 + **Complete Python Developer - Zero to Mastery - AN**
    + 01.Python Basics
+   + 02.Python Basics II

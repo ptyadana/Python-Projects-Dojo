@@ -8,6 +8,7 @@ Compilation of Python projects
    + Python with PostgreSQL with Vagrant set up
 + Python Mini Projects
    + Magic 8 balls : seek out your future
+   + Guessing Game: train your guessing muscle
 -------------------
 
 + **Complete Python Bootcamp - JP**

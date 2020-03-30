@@ -6,7 +6,8 @@ Compilation of Python projects
 + Python DB-API
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up
-   
++ Python Mini Projects
+   + Magic 8 balls : seek out your future
 -------------------
 
 + **Complete Python Bootcamp - JP**

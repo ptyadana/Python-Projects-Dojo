@@ -31,3 +31,4 @@ Compilation of Python projects
    + 01.Python Basics
    + 02.Python Basics II
    + 03.Advanced Python Object Oriented Programming
+   + 04.Advanced Python Functional Programming

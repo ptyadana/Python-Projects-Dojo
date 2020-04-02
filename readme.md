@@ -33,3 +33,4 @@ Compilation of Python projects
    + 03.Advanced Python Object Oriented Programming
    + 04.Advanced Python Functional Programming
    + 05.Advanced Python Decorators
+   + 06.Advanced Python Error Handling

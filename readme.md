@@ -32,3 +32,4 @@ Compilation of Python projects
    + 02.Python Basics II
    + 03.Advanced Python Object Oriented Programming
    + 04.Advanced Python Functional Programming
+   + 05.Advanced Python Decorators

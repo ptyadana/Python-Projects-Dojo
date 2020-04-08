@@ -34,3 +34,7 @@ Compilation of Python projects
    + 04.Advanced Python Functional Programming
    + 05.Advanced Python Decorators
    + 06.Advanced Python Error Handling
+   + 07.Advanced Python Generators
+   + 08.Modules In Python
+   + 09.Debugging In Python
+   + 10.File IO

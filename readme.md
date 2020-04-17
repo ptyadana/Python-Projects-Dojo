@@ -1,6 +1,10 @@
 # Python Dojo + Projects
 Compilation of Python projects
-
++ Password Checker Project
+	+ [requests](https://pypi.org/project/requests)
+	+ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
+	+ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
+	+ [hashlib](https://docs.python.org/3/library/hashlib.html)
 + API HTTP Request
 + JSON with Python
 + Python DB-API
@@ -25,7 +29,7 @@ Compilation of Python projects
    + 30.File IO
    + 31.01.CSV File
    + 31.02.Pickling
-   + 32.Web Scraping
+   + 32.Web Scraping with beautiful soup
   
 + **Complete Python Developer - Zero to Mastery - AN**
    + 01.Python Basics
@@ -40,3 +44,9 @@ Compilation of Python projects
    + 10.File IO
    + 11.Regular Expressions
    + 12.Testing
+   + 13.Scripting with Python
+		+ Password Checker Project
+			+ [requests](https://pypi.org/project/requests)
+			+ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
+			+ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
+			+ [hashlib](https://docs.python.org/3/library/hashlib.html)

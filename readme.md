@@ -1,27 +1,46 @@
 # Python Dojo + Projects
-Compilation of Python projects
-+ Password Checker Project
-	+ [requests](https://pypi.org/project/requests)
-	+ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
-	+ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
-	+ [hashlib](https://docs.python.org/3/library/hashlib.html)
-+ API HTTP Request
-+ JSON with Python
-+ Python DB-API
+Compilation of Python projects.
+
+## Password Checker Project
+A very useful Password checker project where you can check whether your password has been leaked or not before using haveibeenpwned API. You can take preventive measures on the results.
+### Built with
++ [requests](https://pypi.org/project/requests)
++ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
++ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
++ [hashlib](https://docs.python.org/3/library/hashlib.html)
+
+## API HTTP Request
+A simple API requsest project to demostrate making requests and processing responses.
+### Built with
++ [urllib3](https://urllib3.readthedocs.io/en/latest/)
++ json
+
+## JSON with Python
+A simple python project to demostrate read and process JSON files.
+### Built with
++ json
+
+## Python DB-API
+Python projects for connecting various databases such as PostgreSQL, SQLite to connect, query and process information.
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up
-+ Python Mini Projects
-   + Magic 8 balls : seek out your future
-   + Guessing Game: train your guessing muscle
-   + Your Weight on different planets : curious how much you gonna weight on different planets?
--------------------
+### Built with
++ Vagrant
++ [psycopg2](https://www.psycopg.org/docs/index.html) : database adapter
++ [sqlite3](https://docs.python.org/3/library/sqlite3.html)
 
-+ **Complete Python Bootcamp - JP**
+## Python Mini Projects
++ Magic 8 balls : seek out your future
++ Guessing Game: train your guessing muscle
++ Your Weight on different planets : curious how much you gonna weight on different planets?
+-------------------
+# Python Bootcamp Courses
+### Complete Python Bootcamp - JP
    + MyFirstNoteBook
    + DVDRental Notebook
    + misc python files
    
-+ **Modern Python 3 Bootcamp - CS**
+### Modern Python 3 Bootcamp - CS
    + 06.Numbers, Operators, and Comments
    + 07.Variables and Strings
    + 08.Boolean and Conditional Logic
@@ -31,7 +50,7 @@ Compilation of Python projects
    + 31.02.Pickling
    + 32.Web Scraping with beautiful soup
   
-+ **Complete Python Developer - Zero to Mastery - AN**
+### Complete Python Developer - Zero to Mastery - AN
    + 01.Python Basics
    + 02.Python Basics II
    + 03.Advanced Python Object Oriented Programming
@@ -50,3 +69,7 @@ Compilation of Python projects
 			+ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
 			+ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
 			+ [hashlib](https://docs.python.org/3/library/hashlib.html)
+	
+		
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

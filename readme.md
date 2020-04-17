@@ -2,12 +2,17 @@
 Compilation of Python projects.
 
 ## Password Checker Project
-A very useful Password checker project where you can check whether your password has been leaked or not before using haveibeenpwned API. You can take preventive measures on the results.
+A very useful Password checker project where you can check whether your password has been leaked or not before using haveibeenpwned API. You can take preventive measures based on the results.
 ### Built with
 + [requests](https://pypi.org/project/requests)
 + [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
 + [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
 + [hashlib](https://docs.python.org/3/library/hashlib.html)
+
+## Image Processing Project
+A simple image processing project which convert jpg to png format images based on user's input.
+### Built with
++ [pillow](https://python-pillow.org/)
 
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
@@ -69,7 +74,8 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [haveibeenpwned API](https://haveibeenpwned.com/API/v2)
 			+ [hash password generator](https://passwordsgenerator.net/sha1-hash-generator/)
 			+ [hashlib](https://docs.python.org/3/library/hashlib.html)
-	
+		+ Image Processing Project
+			+ [pillow](https://python-pillow.org/)
 		
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

@@ -33,6 +33,11 @@ A simple image processing project which convert jpg to png format images based o
 ### Built with
 + [pillow](https://python-pillow.org/)
 
+## PDF Processing Project
+PDF processing project which merge multiple pdf files, watermark the pdf files, etc.
+### Built with
++ [PyPDF2](https://pythonhosted.org/PyPDF2/)
+
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
 ### Built with

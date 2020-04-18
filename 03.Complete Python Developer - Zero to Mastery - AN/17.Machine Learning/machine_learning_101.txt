@@ -1,0 +1,9 @@
+1. Gather and Import data
+2. Clean the data
+3. Split the data. Training set / Testing set
+4. Create the model
+5. Check the output
+6. Improve
+
+
+https://research.fb.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/

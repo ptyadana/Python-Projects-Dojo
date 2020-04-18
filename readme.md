@@ -1,6 +1,25 @@
 # Python Dojo + Projects
 Compilation of Python projects.
 
+## Data Science & Machine Learning Project
+Projects include analyzing [fifa 2019 football players dataset](https://www.kaggle.com/karangadiya/fifa19) and making visualizations to help business decision making and Machine Learning project for [Iris flowers](https://en.wikipedia.org/wiki/Iris_flower_data_set) [dataset](https://www.kaggle.com/uciml/iris)
+### Built with
++ [NumPy](https://numpy.org/) - package for scientific computing with Python
++ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
++ [scikit-learn](https://scikit-learn.org/stable/) - Simple and efficient tools for predictive data analysis
++ [Matplotlib](https://matplotlib.org/) - a comprehensive library for creating static, animated, and interactive visualizations in Python
++ [seaborn](https://seaborn.pydata.org/) - statistical data visualization
++ [Bokeh ](https://docs.bokeh.org/en/latest/index.html) - interactive visualization library for modern web browsers
++ [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
++ [kaggle](https://www.kaggle.com/) - Source of Dataset collections
+
+## ML - Smarty Brain Project
+Simple Image prediction project using ImageAI.
+
+### Built with
++ [ImageAI](https://github.com/OlafenwaMoses/ImageAI) - library that allows to build applications and systems with self-contained Deep Learning and Computer Vision capabilities
++ [SqueezeNet Model] [https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Prediction/README.md]
+
 ## Password Checker Project
 A very useful Password checker project where you can check whether your password has been leaked or not before using haveibeenpwned API. You can take preventive measures based on the results.
 ### Built with
@@ -76,6 +95,15 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [hashlib](https://docs.python.org/3/library/hashlib.html)
 		+ Image Processing Project
 			+ [pillow](https://python-pillow.org/)
-		
+		+ Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
+			+ [NumPy](https://numpy.org/) - package for scientific computing with Python
+			+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+			+ [scikit-learn](https://scikit-learn.org/stable/) - Simple and efficient tools for predictive data analysis
+			+ [Matplotlib](https://matplotlib.org/) - a comprehensive library for creating static, animated, and interactive visualizations in Python
+			+ [seaborn](https://seaborn.pydata.org/) - statistical data visualization
+			+ [Bokeh ](https://docs.bokeh.org/en/latest/index.html) - interactive visualization library for modern web browsers
+			+ [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
+			+ [kaggle](https://www.kaggle.com/) - Source of Dataset collections
+			+ [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

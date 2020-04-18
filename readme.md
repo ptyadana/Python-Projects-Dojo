@@ -98,14 +98,14 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 		+ PDF Processing Project
 			+ [PyPDF2](https://pythonhosted.org/PyPDF2/)
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
-			+ [NumPy](https://numpy.org/) - package for scientific computing with Python
-			+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
-			+ [scikit-learn](https://scikit-learn.org/stable/) - Simple and efficient tools for predictive data analysis
-			+ [Matplotlib](https://matplotlib.org/) - a comprehensive library for creating static, animated, and interactive visualizations in Python
-			+ [seaborn](https://seaborn.pydata.org/) - statistical data visualization
-			+ [Bokeh ](https://docs.bokeh.org/en/latest/index.html) - interactive visualization library for modern web browsers
-			+ [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
-			+ [kaggle](https://www.kaggle.com/) - Source of Dataset collections
-			+ [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
+		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
+		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+		+ [scikit-learn](https://scikit-learn.org/stable/) - Simple and efficient tools for predictive data analysis
+		+ [Matplotlib](https://matplotlib.org/) - a comprehensive library for creating static, animated, and interactive visualizations in Python
+		+ [seaborn](https://seaborn.pydata.org/) - statistical data visualization
+		+ [Bokeh ](https://docs.bokeh.org/en/latest/index.html) - interactive visualization library for modern web browsers
+		+ [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
+		+ [kaggle](https://www.kaggle.com/) - Source of Dataset collections
+		+ [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

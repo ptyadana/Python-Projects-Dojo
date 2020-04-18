@@ -95,7 +95,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [hashlib](https://docs.python.org/3/library/hashlib.html)
 		+ Image Processing Project
 			+ [pillow](https://python-pillow.org/)
-		+ Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
+	+ 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 			+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 			+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
 			+ [scikit-learn](https://scikit-learn.org/stable/) - Simple and efficient tools for predictive data analysis

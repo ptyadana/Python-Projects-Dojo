@@ -18,7 +18,7 @@ Simple Image prediction project using ImageAI.
 
 ### Built with
 + [ImageAI](https://github.com/OlafenwaMoses/ImageAI) - library that allows to build applications and systems with self-contained Deep Learning and Computer Vision capabilities
-+ [SqueezeNet Model] [https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Prediction/README.md]
++ [SqueezeNet Model](https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Prediction/README.md)
 
 ## Password Checker Project
 A very useful Password checker project where you can check whether your password has been leaked or not before using haveibeenpwned API. You can take preventive measures based on the results.

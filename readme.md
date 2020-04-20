@@ -44,6 +44,12 @@ Email Sender project for sending out email automatically, using gmail host.
 + [smtplib](https://docs.python.org/3/library/email.examples.html)
 + [pathlib](https://docs.python.org/3/library/pathlib.html)
 
+## Twitter Bot Project
+Twitter bot project for getting home timelines tweet, following back followers, like the specific searched result tweets, etc
+### Built with
++ [Twitter API](http://docs.tweepy.org/en/latest/getting_started.html)
++ [Tweepy] (https://www.tweepy.org/) - Python library for accessing the Twitter API.
+
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
 ### Built with
@@ -109,8 +115,11 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 		+ PDF Processing Project
 			+ [PyPDF2](https://pythonhosted.org/PyPDF2/)
 		+ Email Project
-		+ [smtplib](https://docs.python.org/3/library/email.examples.html)
-		+ [pathlib](https://docs.python.org/3/library/pathlib.html)
+			+ [smtplib](https://docs.python.org/3/library/email.examples.html)
+			+ [pathlib](https://docs.python.org/3/library/pathlib.html)
+		+ Twitter Bot Project
+			+ [Twitter API](http://docs.tweepy.org/en/latest/getting_started.html)
+			+ [Tweepy] (https://www.tweepy.org/) - Python library for accessing the Twitter API.
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

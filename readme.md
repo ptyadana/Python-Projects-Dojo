@@ -55,6 +55,13 @@ SMS project for sending sms by using Twilio.
 ### Built with
 + [Twilio](https://www.twilio.com/)	
 
+## Web Scraping Project
+Web Scraping the Hacker News website for customed filtered and consolidated news by using Beautiful Soup.
+### Built with
++ [requests](https://requests.readthedocs.io/en/master/)
++ [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
++ [Hacker News](https://news.ycombinator.com/news)
+
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
 ### Built with
@@ -126,7 +133,12 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [Twitter API](http://docs.tweepy.org/en/latest/getting_started.html)
 			+ [Tweepy](https://www.tweepy.org/) - Python library for accessing the Twitter API.
 		+ Twilio SMS Project
-			+ [Twilio](https://www.twilio.com/)		
+			+ [Twilio](https://www.twilio.com/)
+   + 14.Web Scraping
+		+ HackerNews Scraping Project
+			+ [requests](https://requests.readthedocs.io/en/master/)
+			+ [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+			+ [Hacker News](https://news.ycombinator.com/news)
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

@@ -42,7 +42,7 @@ PDF processing project which merge multiple pdf files, watermark the pdf files, 
 Email Sender project for sending out email automatically, using gmail host.
 ### Built with
 + [smtplib](https://docs.python.org/3/library/email.examples.html)
-+ [pathlib])https://docs.python.org/3/library/pathlib.html
++ [pathlib](https://docs.python.org/3/library/pathlib.html)
 
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
@@ -110,7 +110,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [PyPDF2](https://pythonhosted.org/PyPDF2/)
 		+ Email Project
 		+ [smtplib](https://docs.python.org/3/library/email.examples.html)
-		+ [pathlib])https://docs.python.org/3/library/pathlib.html
+		+ [pathlib](https://docs.python.org/3/library/pathlib.html)
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

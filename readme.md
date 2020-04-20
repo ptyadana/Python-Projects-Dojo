@@ -48,7 +48,12 @@ Email Sender project for sending out email automatically, using gmail host.
 Twitter bot project for getting home timelines tweet, following back followers, like the specific searched result tweets, etc
 ### Built with
 + [Twitter API](http://docs.tweepy.org/en/latest/getting_started.html)
-+ [Tweepy] (https://www.tweepy.org/) - Python library for accessing the Twitter API.
++ [Tweepy](https://www.tweepy.org/) - Python library for accessing the Twitter API.
+
+## Twilio SMS Project
+SMS project for sending sms by using Twilio.
+### Built with
++ [Twilio](https://www.twilio.com/)	
 
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
@@ -119,7 +124,9 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [pathlib](https://docs.python.org/3/library/pathlib.html)
 		+ Twitter Bot Project
 			+ [Twitter API](http://docs.tweepy.org/en/latest/getting_started.html)
-			+ [Tweepy] (https://www.tweepy.org/) - Python library for accessing the Twitter API.
+			+ [Tweepy](https://www.tweepy.org/) - Python library for accessing the Twitter API.
+		+ Twilio SMS Project
+			+ [Twilio](https://www.twilio.com/)		
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

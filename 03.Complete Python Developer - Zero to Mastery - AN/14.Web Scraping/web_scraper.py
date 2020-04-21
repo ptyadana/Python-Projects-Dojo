@@ -2,8 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import pprint
 
+headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'}
+
 base_url = 'https://news.ycombinator.com/news'
-response = requests.get(base_url)
+response = requests.get(base_url, headers=headers)
 
 soup = BeautifulSoup(response.text, 'lxml')
 

@@ -62,6 +62,12 @@ Web Scraping the Hacker News website for customed filtered and consolidated news
 + [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 + [Hacker News](https://news.ycombinator.com/news)
 
+## Flask App - Web Development Project
+Portfolio app using Flask web framework.
+### Built with
++ [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python Web framework
+
+
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
 ### Built with
@@ -139,6 +145,9 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [requests](https://requests.readthedocs.io/en/master/)
 			+ [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 			+ [Hacker News](https://news.ycombinator.com/news)
+   + 15.Flask App - Web Development with Python
+	+ Portfolio App with Flask
+		+ [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python Web framework
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

@@ -67,6 +67,12 @@ Portfolio app using Flask web framework.
 ### Built with
 + [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python Web framework
 
+## Automation Testing with Selenium
+Automation Testing with Selenium using chrome driver.
+### Built with
++ [Selenium](https://selenium-python.readthedocs.io/) - Selenium WebDriver
++ [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
++ [Selenium Easy](https://www.seleniumeasy.com/test/) - testing ground for Selenium
 
 ## API HTTP Request
 A simple API requsest project to demostrate making requests and processing responses.
@@ -145,9 +151,12 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 			+ [requests](https://requests.readthedocs.io/en/master/)
 			+ [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 			+ [Hacker News](https://news.ycombinator.com/news)
-   + 15.Flask App - Web Development with Python
-	+ Portfolio App with Flask
+   + 15.Flask App - Web Development with Python for Portfolio app
 		+ [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python Web framework
+   + 16.Automation Testing with Selenium
+		+ [Selenium](https://selenium-python.readthedocs.io/) - Selenium WebDriver
+		+ [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+		+ [Selenium Easy](https://www.seleniumeasy.com/test/) - testing ground for Selenium
    + 17.Machine Learning & Data Science Projects - FIFA players, Iris Flower, Image Prediction
 		+ [NumPy](https://numpy.org/) - package for scientific computing with Python
 		+ [pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool

@@ -2,6 +2,9 @@
 # Created by https://www.gitignore.io/api/python,vagrant,virtualenv,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=python,vagrant,virtualenv,jupyternotebooks
 
+# score file
+points.csv
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/

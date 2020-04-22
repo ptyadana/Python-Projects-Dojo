@@ -104,17 +104,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + MyFirstNoteBook
    + DVDRental Notebook
    + misc python files
-   
-### Modern Python 3 Bootcamp - CS
-   + 06.Numbers, Operators, and Comments
-   + 07.Variables and Strings
-   + 08.Boolean and Conditional Logic
-   + 23.HTTP_Requests
-   + 30.File IO
-   + 31.01.CSV File
-   + 31.02.Pickling
-   + 32.Web Scraping with beautiful soup
-  
+     
 ### Complete Python Developer - Zero to Mastery - AN
    + 01.Python Basics
    + 02.Python Basics II
@@ -167,5 +157,16 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 		+ [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
 		+ [kaggle](https://www.kaggle.com/) - Source of Dataset collections
 		+ [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
+		
+### Modern Python 3 Bootcamp - CS
+   + 06.Numbers, Operators, and Comments
+   + 07.Variables and Strings
+   + 08.Boolean and Conditional Logic
+   + 23.HTTP_Requests
+   + 30.File IO
+   + 31.01.CSV File
+   + 31.02.Pickling
+   + 32.Web Scraping with beautiful soup
+   
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

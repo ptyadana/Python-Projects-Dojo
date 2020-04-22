@@ -167,6 +167,9 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + 31.01.CSV File
    + 31.02.Pickling
    + 32.Web Scraping with beautiful soup
+
+### 100 Python Exercises Evaluate and Improve Your Skills
+   + Exercise 01-25
    
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

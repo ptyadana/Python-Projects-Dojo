@@ -5,6 +5,8 @@
 # score file
 points.csv
 
+settings.json
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/

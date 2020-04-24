@@ -172,6 +172,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + Exercise 01-25
    + Exercise 26-50
    + Exercise 51-75
+   + Exercise 76-100
    
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

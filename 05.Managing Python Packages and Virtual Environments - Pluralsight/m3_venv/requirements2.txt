@@ -9,6 +9,6 @@ pyOpenSSL==19.1.0
 PySocks==1.7.1
 requests==2.23.0
 six==1.14.0
-urllib3==1.25.8
+urllib3==1.24.2
 win-inet-pton==1.1.0
 wincertstore==0.2

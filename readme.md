@@ -174,5 +174,9 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + Exercise 51-75
    + Exercise 76-100
    
+### Managing Python Packages and Virtual Environments
+   + Manage the requirements of Python projects using virtual environments and pip, the Python package installer and several related tools: virtualenvwrapper, pipenv, and poetry.
+   + This is from [Managing Python Packages and Virtual Environments](https://www.pluralsight.com/courses/managing-python-packages-virtual-environments) course by Reindert-Jan Ekker from Pluralsight.
+   
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

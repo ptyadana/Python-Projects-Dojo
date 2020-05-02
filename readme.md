@@ -173,6 +173,17 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + Exercise 26-50
    + Exercise 51-75
    + Exercise 76-100
+
+### More Python - Microsoft
+[More Python series](https://www.youtube.com/playlist?list=PLlrxD0HtieHiXd-nEby-TMCoUNwhbLUnj) - great, engaging and clear style videos by Susan and Christopher
+   + Lambdas
+   + Classes
+   + Inheritance
+   + Mixins (Multiple Inheritance)
+   + Managing File system
+   + Working with files
+   + Using with
+   + Asychronous Operations
       
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

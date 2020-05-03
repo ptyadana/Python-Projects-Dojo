@@ -1,0 +1,6 @@
+stream = open('./test.txt',mode='rt')
+print('\nIs is readable: ' + str(stream.readable()))
+print('\nRead one char: ' + stream.read(1))
+print('\nRead one line: ' + stream.readline())
+print('\nRead all lines to the end of the file: \n' + str(stream.readlines()))
+stream.close()

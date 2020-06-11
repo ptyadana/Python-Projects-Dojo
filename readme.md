@@ -184,6 +184,17 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + Working with files
    + Using with
    + Asychronous Operations
-      
+
+## [Core Python: Getting Started](https://www.pluralsight.com/courses/getting-started-python-core)
++ Scalar Types, Operators, and Control Flow
++ Strings, Collections, and Iteration
++ Modularity
++ Objects and Types
++ Built-in Collections
++ Exceptions
++ Iteration and Iterables
++ Classes
++ File IO and Resource Managements
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

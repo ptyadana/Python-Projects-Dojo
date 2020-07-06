@@ -167,6 +167,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
    + 31.01.CSV File
    + 31.02.Pickling
    + 32.Web Scraping with beautiful soup
+   + 35.Python + SQL
 
 ### 100 Python Exercises Evaluate and Improve Your Skills - AS
    + Exercise 01-25

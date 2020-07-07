@@ -23,12 +23,12 @@ Simple Image prediction project using ImageAI.
 
 
 ## [Collection of Python Mini & Fun Projects](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/Python%20Mini%20Projects)
-+ Magic 8 balls : seek out your future with these amazing power of magic.
-+ Guessing Game: train your guessing muscle and challenge yourself whether you can beat the game.
-+ Your Weight on different planets : curious how much you gonna weight on different planets?
-+ Endless Forest Adventure Game: Embark your endless adventure walk through the forest. I dare you !
-+ Email Slicer : simple email slicer to check user info.
-+ LOTR Ridiculous Fellowship System: do you want to join the fellowship of the LOTR? sign up here !
++ **Magic 8 balls** : seek out your future with these amazing power of magic.
++ **Guessing Game**: train your guessing muscle and challenge yourself whether you can beat the game.
++ **Your Weight on different planets** : curious how much you gonna weight on different planets?
++ **Endless Forest Adventure Game**: Embark your endless adventure walk through the forest. I dare you !
++ **Email Slicer** : simple email slicer to check user info.
++ **LOTR Ridiculous Fellowship System**: do you want to join the fellowship of the LOTR? sign up here !
 
 
 ## [Password Checker Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/13.Scripting%20with%20Python)

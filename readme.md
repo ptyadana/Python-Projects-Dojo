@@ -14,8 +14,6 @@ Projects include analyzing [fifa 2019 football players dataset](https://www.kagg
 + [Jupyter Notebook](https://jupyter.org/) - Notebook system for data analysis
 + [kaggle](https://www.kaggle.com/) - Source of Dataset collections
 
-
-
 ## [ML - Smarty Brain Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/17.Machine%20Learning%20and%20Data%20Science/ML_SmartyBrain_Project)
 Simple Image prediction project using ImageAI.
 
@@ -23,6 +21,14 @@ Simple Image prediction project using ImageAI.
 + [ImageAI](https://github.com/OlafenwaMoses/ImageAI) - library that allows to build applications and systems with self-contained Deep Learning and Computer Vision capabilities
 + [SqueezeNet Model](https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Prediction/README.md)
 
+
+## [Collection of Python Mini & Fun Projects](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/Python%20Mini%20Projects)
++ Magic 8 balls : seek out your future with these amazing power of magic.
++ Guessing Game: train your guessing muscle and challenge yourself whether you can beat the game.
++ Your Weight on different planets : curious how much you gonna weight on different planets?
++ Endless Forest Adventure Game: Embark your endless adventure walk through the forest. I dare you !
++ Email Slicer : simple email slicer to check user info.
++ LOTR Ridiculous Fellowship System: do you want to join the fellowship of the LOTR? sign up here !
 
 
 ## [Password Checker Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/13.Scripting%20with%20Python)

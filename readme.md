@@ -1,5 +1,5 @@
 # Python Dojo + Projects
-Compilation of Python projects.
+Compilation of Python projects and dojo where I practice python related skills.
 
 ## [Data Science & Machine Learning Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/17.Machine%20Learning%20and%20Data%20Science)
 Projects include analyzing [fifa 2019 football players dataset](https://www.kaggle.com/karangadiya/fifa19) and making visualizations to help business decision making and Machine Learning project for [Iris flowers](https://en.wikipedia.org/wiki/Iris_flower_data_set) [dataset](https://www.kaggle.com/uciml/iris)
@@ -29,6 +29,9 @@ Simple Image prediction project using ImageAI.
 + **Endless Forest Adventure Game**: Embark your endless adventure walk through the forest. I dare you !
 + **Email Slicer** : simple email slicer to check user info.
 + **LOTR Ridiculous Fellowship System**: do you want to join the fellowship of the LOTR? sign up here !
++ **Cinema Simulator**: simple ticketing system where you can enjoy list of today movies.
++ **Baby Conversation Simulator** : As you know a child can be curious about everything and your answer may not satisfy him. Can you survive the endless questions and give the right answer?
++ **Pig Latin Translator**: want to try a new langague? You have came to the right place.
 
 
 ## [Password Checker Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/13.Scripting%20with%20Python)

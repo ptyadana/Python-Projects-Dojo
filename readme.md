@@ -32,6 +32,8 @@ Simple Image prediction project using ImageAI.
 + **Cinema Simulator**: simple ticketing system where you can enjoy list of today movies.
 + **Baby Conversation Simulator** : As you know a child can be curious about everything and your answer may not satisfy him. Can you survive the endless questions and give the right answer?
 + **Pig Latin Translator**: want to try a new langague? You have came to the right place.
++ **Tic Tac Toe**: classic game to play with a friend
++ **Bank & Coin Simulator**: don't know where to put your valuable coins?
 
 
 ## [Password Checker Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/13.Scripting%20with%20Python)

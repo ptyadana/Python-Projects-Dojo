@@ -34,6 +34,7 @@ Simple Image prediction project using ImageAI.
 + **Pig Latin Translator**: want to try a new langague? You have came to the right place.
 + **Tic Tac Toe**: classic game to play with a friend
 + **Bank & Coin Simulator**: don't know where to put your valuable coins?
++ **Memo Taker**: auto memo taker that alwayas ask you to say something and convert them into one piece.
 
 
 ## [Password Checker Project](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/03.Complete%20Python%20Developer%20-%20Zero%20to%20Mastery%20-%20AN/13.Scripting%20with%20Python)

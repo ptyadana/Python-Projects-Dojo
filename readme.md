@@ -214,5 +214,11 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 + Classes
 + File IO and Resource Managements
 
+
+## [Automate the Boring Stuffs with Python Projects](09.Automate%20the%20Boring%20Stuffs%20with%20Python%20Projects%20-%20AS)
+These are my solutions in practicing Projects for both [Book](https://automatetheboringstuff.com/) and [Video Course](https://www.udemy.com/course/automate/).
++ Collatz Sequence
++ Guess the Number Game
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

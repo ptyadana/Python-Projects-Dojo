@@ -219,6 +219,9 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 These are my solutions in practicing Projects for both [Book](https://automatetheboringstuff.com/) and [Video Course](https://www.udemy.com/course/automate/).
 + Collatz Sequence
 + Guess the Number Game
++ Comma Code
++ Coin Flip Streaks
++ Character Picture Grid
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

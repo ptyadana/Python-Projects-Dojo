@@ -10,6 +10,7 @@ settings.json
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+.vscode/*
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*

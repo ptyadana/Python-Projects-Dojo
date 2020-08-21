@@ -24,15 +24,15 @@ def partition(datavalues, first, last):
     # start searching for the crossing point
     done = False
     while not done:
-        # TODO: advance the lower index
+        #  advance the lower index
         while lower <= upper and datavalues[lower] <= pivotvalue:
             lower += 1
 
-        # TODO: advance the upper index
+        #  advance the upper index
         while upper >= lower and datavalues[upper] >= pivotvalue:
             upper -= 1
 
-        # TODO: if the two indexes cross, we have found the split point
+        #  if the two indexes cross, we have found the split point
         if upper < lower:
             done = True
         else:

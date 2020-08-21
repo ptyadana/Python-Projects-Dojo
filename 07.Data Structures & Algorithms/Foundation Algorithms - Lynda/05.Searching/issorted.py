@@ -9,7 +9,7 @@ def is_sorted_advance(itemList):
 
 
 def is_sorted(itemlist):
-    # TODO: using the brute force method
+    #  using the brute force method
     for i in range(len(itemlist)-1):
         if itemlist[i] > itemlist[i+1]:
             return False

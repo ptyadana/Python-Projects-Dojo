@@ -35,16 +35,16 @@ def lesson_organizer(file_path, file_type, file_keyword, dir_keyword, destinatio
 
                     #check folder with that chapter number if doesn't exist
                     destination_full_path = destination_dir + "\\" + chapter
-
-                    if os.path.exists(destination_full_path):
-                        # if existcopy the file into that folder
-                        print(f"{chapter} folder exists.")
-                        shutil.copy(path_in_str, destination_full_path + "\\" + lesson_name)
-                    else:
-                        # create new folder
+                    
+                    if not os.path.exists(destination_full_path):
+                        # if folder doesn't exist, create new folder
                         print(f"making folder {chapter}")
-                        os.mkdir(destination_full_path)              
+                        os.mkdir(destination_full_path)   
 
+                    # then copy the file into that folder
+                    print(f"{chapter} folder exists.")
+                    shutil.copy(path_in_str, destination_full_path + "\\" + lesson_name)
+                
                 else:
                     print(f"No such folder exists in {destination_dir}")
     else:
@@ -52,10 +52,10 @@ def lesson_organizer(file_path, file_type, file_keyword, dir_keyword, destinatio
 
 if __name__ == "__main__":
     
-    file_path = r"C:\Users\UserName\Downloads\Folder"
+    file_path = r"C:\Users\User\Downloads\Folder"
     file_type = ".py"
     file_keyword = "start"
     dir_keyword = "Chapter"
-    destination_dir = r"C:\Users\UserName\Downloads\New"
+    destination_dir = r"C:\Users\User\Downloads\Folder"
 
     lesson_organizer(file_path, file_type, file_keyword, dir_keyword, destination_dir)

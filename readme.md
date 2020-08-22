@@ -92,18 +92,18 @@ Automation Testing with Selenium using chrome driver.
 + [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 + [Selenium Easy](https://www.seleniumeasy.com/test/) - testing ground for Selenium
 
-## [API HTTP Request](API%20HTTP%20Request)
+## [API HTTP Request](/API%20HTTP%20Request)
 A simple API requsest project to demostrate making requests and processing responses.
 ### Built with
 + [urllib3](https://urllib3.readthedocs.io/en/latest/)
 + json
 
-## [JSON with Python](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/JSON%20with%20Python)
+## [JSON with Python](/JSON%20with%20Python)
 A simple python project to demostrate read and process JSON files.
 ### Built with
 + json
 
-## [Python DB-API](https://github.com/ptyadana/Python-Projects-Dojo/tree/master/Python%20DB-API)
+## [Python DB-API](/Python%20DB-API)
 Python projects for connecting various databases such as PostgreSQL, SQLite to connect, query and process information.
    + Python with SQL Lite
    + Python with PostgreSQL with Vagrant set up

@@ -1,0 +1,13 @@
+*** How to approach Recursion ***
+1. Divide a problem into subproblems.
+    a. must be the same type as the original
+2. Solve those subproblems.
+3. Combine the results to solve the original
+
+
+*** Part of a Recursive Solution ***
+1. Base case / degenerate case (Stopping Condition)
+    a. "How do I know when I'm done recursing?"
+    b. Smallest slice of the problem is treated differently.
+2. Recursive case / progress
+    a. Continue reducing the problem until reaching the base case.

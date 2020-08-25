@@ -1,0 +1,82 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "1imJDAAAQBAJ",
+      "etag": "X6wnQn34pNA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1imJDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Dark Matter",
+        "subtitle": "A Novel",
+        "authors": [
+          "Blake Crouch"
+        ],
+        "publisher": "Crown Books",
+        "publishedDate": "2016",
+        "description": "A mind-bending, relentlessly paced science-fiction thriller, in which an ordinary man is kidnapped, knocked unconscious--and awakens in a world inexplicably different from the reality he thought he knew.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781101904220"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1101904224"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 342,
+        "printType": "BOOK",
+        "categories": [
+          "FICTION"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 980,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1imJDAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1imJDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=1imJDAAAQBAJ&dq=isbn:1101904224&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=1imJDAAAQBAJ&dq=isbn:1101904224&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Dark_Matter.html?hl=&id=1imJDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "MM",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MM",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1imJDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A science-fiction thriller in which an ordinary man is kidnapped, knocked unconscious, and awakens in a world inexplicably different from the reality he thought he knew."
+      }
+    }
+  ]
+}

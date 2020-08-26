@@ -22,7 +22,7 @@ Simple Image prediction project using ImageAI.
 + [SqueezeNet Model](https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Prediction/README.md)
 
 
-## [Collection of Python Mini & Fun Projects](Python%20Mini%20Projects)
+## [Collection of Python Mini & Fun Projects](00.Python%20Mini%20Projects)
 + **Magic 8 balls** : seek out your future with these amazing power of magic.
 + **Guessing Game**: train your guessing muscle and challenge yourself whether you can beat the game.
 + **Your Weight on different planets** : curious how much you gonna weight on different planets?

@@ -6,30 +6,30 @@ import pendulum
 dt1 = pendulum.datetime(2020, 7, 28, 15, 30)
 print(dt1)
 
-# TODO: use some formatting functions
+# use some formatting functions
 print(dt1.to_date_string())
 print(dt1.to_time_string())
 print(dt1.to_datetime_string())
 
 
-# TODO: use functions for nice formatting
+# use functions for nice formatting
 print()
 print(dt1.to_formatted_date_string())
 print(dt1.to_day_datetime_string())
 
 
-# TODO: use some common formats
+# use some common formats
 print()
 print(dt1.to_cookie_string())
 print(dt1.to_iso8601_string())
 print(dt1.to_rfc1036_string())
 
 
-# TODO: use the format function for pretty printing
+# use the format function for pretty printing
 print()
 print(dt1.format("YYYY MM-DD HH:MM:SS A"))
 print(dt1.format("dddd DD MMMM YYYY"))
 
-# TODO: use localization
+# use localization
 print(dt1.format("dddd DD MMMM YYYY", locale="de"))
 print(dt1.format("dddd DD MMMM YYYY", locale="fr"))

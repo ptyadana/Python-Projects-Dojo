@@ -11,7 +11,7 @@ print(dt2.to_date_string())
 print("------\n")
 
 
-# TODO: add and subtract various values
+# add and subtract various values
 new_date = dt1.add(hours=1)
 print(new_date.to_date_string())
 
@@ -24,16 +24,16 @@ print(dt1.to_date_string())
 dt1 = dt1.subtract(months=48, hours=72)
 print(dt1.to_date_string())
 
-# TODO: negative values also work
+# negative values also work
 dt1 = dt1.add(years=-1)
 print(dt1.to_date_string())
 
 
-# TODO: Try comparing datetimes
+# Try comparing datetimes
 print(dt1.is_past())
 print(dt1.is_future())
 print(dt1.is_leap_year())
-print(dt1.is_dst()) #day light saving
+print(dt1.is_dst())  # day light saving
 
 print(dt1.to_date_string())
 print(dt2.to_date_string())
@@ -44,7 +44,7 @@ dt3 = pendulum.datetime(2020, 12, 22)
 print(dt3.to_date_string())
 print(dt2 == dt3)
 
-# TODO: Create a Period using difference
+# Create a Period using difference
 dt1 = pendulum.datetime(2020, 7, 28)
 period = dt1.diff(dt2)
 

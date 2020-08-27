@@ -1,0 +1,14 @@
+GET http://example.com HTTP/1.1
+
+###
+
+GET https://httpbin.org/json HTTP/1.1
+
+###
+
+POST https://httpbin.org/post HTTP/1.1
+x-my-name: phonethiri
+
+{
+    "arg1": "this is something."
+}

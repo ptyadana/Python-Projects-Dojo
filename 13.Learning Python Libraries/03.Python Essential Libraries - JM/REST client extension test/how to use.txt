@@ -1,0 +1,13 @@
+Extension Needed: REST client
+
+1) create a new http file
+2) create GET or POST request to website of your choice
+3) empty line will be regarded as body
+4) you can create multiple http request in one file, but you need to seperate them with ###
+
+--- create python code from block of request ---
+1) REST client Extension can automatically create python code from block of request
+2) select the block of request in http file.
+3) right-click and select "Generate Code Sinppet"
+4) choose the langauge (such as python)
+5) code will be automatically generated.

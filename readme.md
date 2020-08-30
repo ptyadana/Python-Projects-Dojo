@@ -294,6 +294,7 @@ To skill up my python related skills in specific areas and topics:
 - Python Object Oriented Programming
 - Learning Python Generators
 - Python Decorators
+- Functional Programming with Python
 
 ## License
 

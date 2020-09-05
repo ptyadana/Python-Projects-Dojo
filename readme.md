@@ -295,6 +295,11 @@ To skill up my python related skills in specific areas and topics:
 - Learning Python Generators
 - Python Decorators
 - Functional Programming with Python
+- Using Python for Automation
+  - automate file, folder, terminal
+  - web scraping with Beautiful Soup
+  - web browsing with Selenium
+  - automating APIs calls
 
 ## License
 

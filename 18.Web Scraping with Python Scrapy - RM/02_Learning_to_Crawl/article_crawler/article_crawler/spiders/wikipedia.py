@@ -11,7 +11,7 @@ class WikipediaSpider(CrawlSpider):
     allowed_domains = ['en.wikipedia.org']
     start_urls = ['https://en.wikipedia.org/wiki/Kevin_Bacon']
 
-    # LinkExtractor actually parse the html, with regular expression we want to exclude pages with :
+    # LinkExtractor actually parse the html, with regular expression we want to exclude pages with column :
     # follow = True means crawler will keep following innner links
     rules = [Rule(LinkExtractor(allow=r'wiki/((?!:).)*$'),
                   callback='parse_info', follow=True)]

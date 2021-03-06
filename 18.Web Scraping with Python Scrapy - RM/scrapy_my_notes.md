@@ -94,3 +94,20 @@ When we save the information from crawler as file, there are 3 different ways.
 ### 3) Local settings for specific scraper or crawler
 
 - we can also put those settings directly in crawler.py file as local settings. These settings will overwrite the global settings.
+
+# Centralized Tasks (Exensitiblity / Reusability)
+
+## Using pipelines.py
+
+- We can put centralized tasks (such as validation, etc) defined in pipelines.
+- It is not necessarily to put every code in pipelines.py file as we can import classes from elsewhere.
+- However it is best practice and traditional to put at least references in pipelines.py
+
+## Put those pipelines info in settings.py
+
+- Once all those necessary tasks are implemented in Pipelines.py, we need to put those pipelines information in `settings.py` file.
+- the number value associated for each pipelines are the `ORDER`, example:
+  `ITEM_PIPELINES = {`
+  `'article_crawler.pipelines.CheckItemPipeline': 100,`
+  `'article_crawler.pipelines.CleanDatePipeline': 200,`
+  `}`

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<items>
+	<item id="item1">
+		<name>Mocha</name>
+		<type>Coffee</type>
+		<photo>photos/candles.jpg</photo>
+	</item>
+	<item id="item2">
+		<name>Decaf</name>
+		<type>Coffee</type>
+		<photo>photos/teacup.jpg</photo>
+	</item>
+	<item id="item3">
+		<name>Raspberry Zinger</name>
+		<type>Tea</type>
+		<photo>photos/teapot_white.jpg</photo>
+	</item>
+	<item id="item4">
+		<name>Earl Grey</name>
+		<type>Tea</type>
+		<photo>photos/teapot_bone.jpg</photo>
+	</item>
+</items>

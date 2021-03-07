@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="businesscard_advanced.css"?>
+
+<BusinessCards>
+	<BusinessCard>
+		<Name>Vivian Fong</Name>
+		<phone type="mobile" primary="super-important">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>vivian@test.com</email>
+	</BusinessCard>
+
+	<BusinessCard>
+		<Name>Richard A</Name>
+		<phone type="mobile">(415) 555-0000</phone>
+		<phone type="work" primary="primary">(800) 555-1111</phone>
+		<phone type="fax">(510) 555-2222</phone>
+		<email>richard@test.com</email>
+	</BusinessCard>
+</BusinessCards>

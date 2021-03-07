@@ -1,0 +1,48 @@
+BusinessCard {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dacfe5;
+  width: 300px;
+  display: block;
+  padding: 10pt;
+  border: 1px solid #0d3427;
+  margin: 5px;
+  text-align: left;
+}
+
+Name {
+  color: #0d3427;
+  font-weight: bold;
+  font-size: 140%;
+  display: block;
+  margin-bottom: 3%;
+}
+
+email {
+  color: #0d3427;
+  font-size: 90%;
+  font-weight: bold;
+  display: block;
+  margin-top: 3%;
+}
+
+/* prefix email: to email type xml node*/
+email::before {
+  content: "email: ";
+}
+
+phone {
+  font-size: 90%;
+  color: #523819;
+  font-size: 90%;
+  display: block;
+}
+
+/* append attribute type such as work, mobile in front of phone numbers */
+phone::before {
+  content: attr(type) ": ";
+}
+
+/* append whatever word defined primary attribute to the phone number which are using that attribute type */
+phone[primary]::after {
+  content: " (" attr(primary) ")";
+}

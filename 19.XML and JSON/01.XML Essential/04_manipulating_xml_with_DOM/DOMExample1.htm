@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Card DOM Example 1</title>
+    <script type="text/javascript">
+				
+    window.addEventListener("load",function() {
+    	document.querySelector("#showBCardData").addEventListener("click",displayBusinessCardData);
+    });
+
+    function displayBusinessCardData() {
+        var xmldata1 = document.getElementById("xmldata1");
+        var bizCard = xmldata1.getElementsByTagName("BusinessCard")[0];
+        
+        var xmldata1 = document.getElementById("xmldata1");
+        var bizCard = xmldata1.getElementsByTagName("BusinessCard")[0];
+        
+        var name = "Name: " + bizCard.getElementsByTagName("Name")[0].firstChild.data;
+        var email = "email: " + bizCard.getElementsByTagName("email")[0].firstChild.data;
+        
+        alert("BusinessCard Data: \n\n" + name + "\n" + email);
+    }
+    </script>
+</head>
+<body>
+<xml id="xmldata1" style="display:none">
+	<BusinessCard>
+		<Name>Vivian Fong</Name>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+		<email>vivian@test.com</email>
+	</BusinessCard>
+</xml>
+    <button id="showBCardData">Show Business Card Data</button>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Card DOM Example 3</title>
+    <script type="text/javascript">
+    function createBizCards()
+    {
+        // get references to the data island and the array of business cards
+		var xmlData = document.getElementById("xmldata1");
+		var bizCards = xmlData.getElementsByTagName("BusinessCard");
+        
+        // load every business cards
+        for (var i = 0; i < bizCards.length; i++){
+            var currentCard = bizCards[i];
+
+            // New Card for each person
+            var newCard = document.createElement("div"); //create new div element
+            newCard.setAttribute("class", "BusinessCard"); // associate with css style's class name BusinessCard
+
+            // Name
+            var newName = document.createElement("div");
+            
+            newName.setAttribute("class", "Name"); //set style css
+            var nameStr = document.createTextNode(currentCard.getElementsByTagName("Name")[0].firstChild.data); 
+            newName.appendChild(nameStr);
+            newCard.appendChild(newName); // make it as a child to newcard 
+        
+            //Phone Numbers
+            var phones = currentCard.getElementsByTagName("phone"); //get the list of phone numbers
+            var newPhone;
+            for (j=0; j < phones.length; j++){
+                newPhone = document.createElement("div");
+                newPhone.setAttribute("class", "phone");
+
+                var labelStr = currentCard.getElementsByTagName("phone")[j].getAttribute("type") + " : ";
+                var phoneStr = document.createTextNode(labelStr + currentCard.getElementsByTagName("phone")[j].firstChild.data);
+
+                newPhone.appendChild(phoneStr);
+                newCard.appendChild(newPhone);
+            }
+
+            // Email address
+            var newEmail = document.createElement("div")
+            newEmail.setAttribute("class", "email");
+            
+            var emailStr = document.createTextNode("email: " + currentCard.getElementsByTagName("email")[0].firstChild.data);
+
+            newEmail.appendChild(emailStr);
+            newCard.appendChild(newEmail);
+
+
+            document.getElementsByTagName("body")[0].appendChild(newCard);
+        }
+		
+    }
+    
+    window.addEventListener("load",createBizCards);
+    </script>
+
+    <link rel="stylesheet" href="businesscard.css" />
+</head>
+<body>
+<xml id="xmldata1" style="display:none">
+<BusinessCards>
+	<BusinessCard>
+		<Name>Vivian Fong</Name>
+		<email>vivian@test.com</email>
+		<phone type="mobile">(415) 555-4567</phone>
+		<phone type="work">(800) 555-9876</phone>
+		<phone type="fax">(510) 555-1234</phone>
+	</BusinessCard>
+</BusinessCards>	
+</xml>
+</body>
+</html>

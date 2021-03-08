@@ -1,1 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT BusinessCard (Name, phone+, email?)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (mobile | work | fax | home) #REQUIRED>
+<!ELEMENT email (#PCDATA)>

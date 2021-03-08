@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vivian's Cafe Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+
+<!-- Include the JavaScript code for processing the XML data -->
+<script src="MyCafeCode.js">
+</script>
+<script>
+	window.addEventListener("load", function() {
+		initialize('menuTable','cafeMenuXML');
+		document.forms[0].txtBillAmt.value=calculateBill('menuTable');
+		document.querySelector("#calcBill").addEventListener("click", function () {
+			document.forms[0].txtBillAmt.value=calculateBill('menuTable');
+		});
+		document.querySelector("#showVeg").addEventListener("click", function () {
+			highlightVegetarian('menuTable',this.checked);			
+		});
+	});
+</script>
+</head>
+<body>
+
+<!--
+This is the embedded XML Data Island. The reason it does not render in
+the page is because we included a CSS style tag that sets the display of
+the XML tag to "none". Ordinarily, this is not how you would access XML
+in typical real-world production. For example, the XML data would be 
+retrieved from some other location using AJAX. To keep this example
+simple and self-contained, the XML is embedded in the document.
+-->
+<xml id="cafeMenuXML">
+  <cafemenu>
+  	<section name="Side Dishes">
+  		<entree vegetarian="true">
+  			<item>Potato Salad</item>
+  			<price>2.95</price>
+  		</entree>
+  		<entree>
+  			<item>Vivian's French Fries</item>
+  			<price>5.50</price>
+  		</entree>
+  		<entree>
+  			<item>Huevos Rancheros</item>
+  			<price>6.50</price>
+  		</entree>
+  	</section>
+  	<section name="Breakfast">
+  		<entree>
+  			<item>Two Eggs, any style</item>
+  			<price>2.99</price>
+  		</entree>
+  		<entree>
+			<item>Vivian's Famous Peppers and Eggs</item>
+			<price>6.29</price>
+  		</entree>
+  		<entree vegetarian="true">
+  			<item>Bowl of fruit</item>
+  			<price>4.99</price>
+  		</entree>
+  		<entree vegetarian="true">
+  			<item>French toast</item>
+			<price>3.25</price>
+  		</entree>
+  		<entree>
+  		    <item>Croissant</item>
+  		    <price>1.99</price>
+  		</entree>
+  	</section>
+  	<section name="Lunch">
+  		<entree>
+  			<item>Grilled Chicken Sandwich</item>
+  			<price>5.99</price>
+  		</entree>
+  		<entree>
+  			<item>Tuna Melt</item>
+			<price>4.99</price>
+  		</entree>
+  		<entree vegetarian="true">
+  			<item>Pasta Salad</item>
+			<price>5.39</price>
+  		</entree>
+  	</section>
+  	<section name="Dinner">
+  		<entree>
+  			<item>New York Steak</item>
+  			<price>8.99</price>
+  		</entree>
+  		<entree>
+  			<item>Chilean Sea Bass</item>
+  			<price>10.99</price>
+  		</entree>
+  		<entree vegetarian="true">
+  			<item>Linguini with Grilled Porcini Mushroom</item>
+  			<price>7.79</price>
+  		</entree>
+	</section>
+  </cafemenu>
+</xml>
+
+<h2><img src="javaco_tea_logo.gif" alt="Javaco Tea Logo" width="58" height="100"/>Welcome to Vivian's Cafe</h2>
+<p>Select your entrees from the menu below. To calculate the amount of the bill,
+  click the Calculate Bill button. Check the &quot; Highlight Vegetarian Meals &quot;
+  box to highlight vegetarian dishes.</p>
+<table id="menuTable" border="1" class="indent">
+  <thead>
+	<tr>
+	  <th colspan="3">Vivian's Cafe Menu</th>
+	</tr>
+	<tr>
+	  <th>Select</th>
+	  <th>Item</th>
+	  <th>Price</th>
+	</tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<form class="indent">
+  <p>
+	<input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill"/>
+	Total: $
+	<input type="text" name="txtBillAmt"/>
+	<input type="checkbox" name="cbOpts" value="isVeg" id="showVeg"/>
+	<label for="showVeg">Highlight Vegetarian Meals</label>
+	</p>
+</form>
+</body>
+</html>

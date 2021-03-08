@@ -57,6 +57,10 @@ We can define custom XML namespace, which needs to be unique name and with custo
 
 # 5) XML and XPath
 
+## XPath important concepts
+
+![X_Path0.png](img/X_Path0.png)
+
 ## Using XPath for selecting information
 
 ![X_Path.png](img/X_Path.png)
@@ -78,6 +82,8 @@ We can define custom XML namespace, which needs to be unique name and with custo
 
 ### to select specific phone number 1, using predicate
 
+Take note that in xpath, referencing list index **start from 1**, not like 0 from other langagues
+
 `/Businesscard/phone[1]`
 
 ### last phone number, using last() function
@@ -91,15 +97,37 @@ We can define custom XML namespace, which needs to be unique name and with custo
 ### get all phone numbers with the attributes "type"
 
 `/BusinessCard/phone[@type]`
+(or)
+`//phone[@type]`
 
 ### get all phone numbers with the attributes "type" of "work"
 
 `/BusinessCard/phone[@type='work']`
+(or)
+`//phone[@type='work']`
 
 ## items.xml
 
 ### we want to select photo of Coffee type
 
 `/items/item[type='Coffee']/photo`
+
+---
+
+# 6) XML and XSLT
+
+## What is XSLT?
+
+- eXtensible Stylesheet Language Trnasofrmations
+- Different than CSS - applies templates to XML data
+- Written using XML syntax itself
+- can transorm XML into almost anything
+- can perform operations directly on the data.
+- more at https://wwww.w3.org/TR/xslt
+
+![](img/XSLT1.png)
+![](img/XSLT2.png)
+In below example, we are getting source element(SimpleTag) and replace with whatever we define in this XSLT template (in this case some html).
+![](img/XSLT3.png)
 
 ---

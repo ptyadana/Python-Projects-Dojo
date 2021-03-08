@@ -129,9 +129,10 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 + [x] [Data Structure & Algorithms - Udacity](07.Data%20Structures%20%26%20Algorithms/Data%20Structure%20%26%20Algorithms%20-%20Udacity)
 
 
-## Automation and Web Scraping
+## Automation, Web Scraping, JSON & XML
 + [ ] [Automate the Boring Stuffs with Python Projects - In Progress](09.Automate%20the%20Boring%20Stuffs%20with%20Python%20Projects%20-%20AS)
 + [x] [Using Python for Automation with Beautiful Soup and Selinum](17.Python%20for%20Automation)
++ [ ] [XML Essential](19.XML%20and%20JSON)
 
 
 ## Advancing Python Journey - (In Progress)
@@ -146,6 +147,7 @@ To skill up my python related skills in specific areas and topics:
 + [x] [Python Code Challenges](10.Python%20Code%20Challenges)
 + [x] [Core Python: Getting Started](06.Core%20Python%20-%20Getting%20Started)
 + [x] [More Python series](05.More%20Python%20-%20Microsoft)
+
 
 
 ## License

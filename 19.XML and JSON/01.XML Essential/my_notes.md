@@ -135,3 +135,55 @@ In below example, we are getting source element(SimpleTag) and replace with what
 # 7) XSLT Examples
 
 If there is an issue of Cross-Origin Request Blocked on firefox testing, [temporarily disable the setting](http://testingfreak.com/how-to-fix-cross-origin-request-security-cors-error-in-firefox-chrome-and-ie/) during testing.
+
+---
+
+# 8) Document Type Definition
+
+- Provide way to contstrain XML document content
+- Specify what kind of content can appear and where
+- Can be included in XML file, or be external to document
+- Relatively simple to write, but not powerful
+
+### DTD Syntax and Content
+
+![img/DTD1.png](img/DTD1.png)
+![img/DTD2.png](img/DTD2.png)
+
+### DTD Format
+
+![img/DTD3.png](img/DTD3.png)
+
+### Declaring Elements in DTD
+
+![img/DTD4.png](img/DTD4.png)
+
+Example :
+![img/DTD5.png](img/DTD5.png)
+![img/DTD6.png](img/DTD6.png)
+
+### Declaring Attributes in DTD
+
+![img/DTD7.png](img/DTD7.png)
+![img/DTD8.png](img/DTD8.png)
+![img/DTD9.png](img/DTD9.png)
+
+Example: Below basically declare the rules that BusinessCard element needs to follow.
+
+- There should be Name.
+- followed by 1 or more phone.
+- followed by optional email.
+
+  `<!ELEMENT BusinessCard (Name, phone+, email?)`
+
+  Example2: This means phone number is characters
+
+- Additonally phone has attribute **type** with 4 values which are required.
+
+  `<!ELEMENT phone (#PCDATA)>`
+
+  `<!ATTLIST phone type (mobile | work | fax | home) #REQUIRED>`
+
+## Validation XML definition
+
+- https://www.xmlvalidation.com/

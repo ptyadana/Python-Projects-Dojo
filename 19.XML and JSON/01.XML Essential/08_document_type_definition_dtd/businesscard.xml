@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE BusinessCard [
+<!ELEMENT BusinessCard (Name, phone+, email?)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (mobile | work | fax | home) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+]>
+<BusinessCard>
+	<Name>Vivian Fong</Name>
+	<phone type="mobile">(415) 555-4567</phone>
+	<phone type="work">(800) 555-9876</phone>
+	<phone type="fax">(510) 555-1234</phone>
+	<phone type="home">(425) 555-8989</phone>
+	<email>vivian@test.com</email>
+</BusinessCard>

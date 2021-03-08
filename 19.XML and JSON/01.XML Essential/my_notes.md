@@ -118,7 +118,7 @@ Take note that in xpath, referencing list index **start from 1**, not like 0 fro
 
 ## What is XSLT?
 
-- eXtensible Stylesheet Language Trnasofrmations
+- eXtensible Stylesheet Language Transformations
 - Different than CSS - applies templates to XML data
 - Written using XML syntax itself
 - can transorm XML into almost anything
@@ -131,3 +131,7 @@ In below example, we are getting source element(SimpleTag) and replace with what
 ![](img/XSLT3.png)
 
 ---
+
+# 7) XSLT Examples
+
+If there is an issue of Cross-Origin Request Blocked on firefox testing, [temporarily disable the setting](http://testingfreak.com/how-to-fix-cross-origin-request-security-cors-error-in-firefox-chrome-and-ie/) during testing.

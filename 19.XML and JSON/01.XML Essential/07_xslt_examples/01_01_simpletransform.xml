@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<!-- associated xml with xslt (style sheet)-->
+<?xml-stylesheet type="text/xsl" href="01_02_simpletransform.xslt"?>
+
+<JavacoTea>
+   Try our new Herbal Tea!
+</JavacoTea>

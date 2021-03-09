@@ -132,7 +132,7 @@ Python projects for connecting various databases such as PostgreSQL, SQLite to c
 ## Automation, Web Scraping, JSON & XML
 + [ ] [Automate the Boring Stuffs with Python Projects - In Progress](09.Automate%20the%20Boring%20Stuffs%20with%20Python%20Projects%20-%20AS)
 + [x] [Using Python for Automation with Beautiful Soup and Selinum](17.Python%20for%20Automation)
-+ [ ] [XML Essential](19.XML%20and%20JSON)
++ [x] [XML Essential](19.XML%20and%20JSON/01.XML%20Essential/my_notes.md)
 
 
 ## Advancing Python Journey - (In Progress)

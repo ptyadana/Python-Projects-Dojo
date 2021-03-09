@@ -1,0 +1,22 @@
+<!-- day 3, there is no data. -->
+<?xml version="1.0"?>
+<forecast>
+    <dailyForecast>
+        <date>2021-03-09</date>
+        <description>sunny</description>
+        <maxTemp unit="C">38</maxTemp>
+        <minTemp unit="C">20</minTemp>
+        <windSpeed unit="kph">12</windSpeed>
+        <danger>false</danger>
+    </dailyForecast>
+    <dailyForecast>
+        <date>2021-03-10</date>
+        <description>windy</description>
+        <maxTemp unit="C">35</maxTemp>
+        <minTemp unit="C">22</minTemp>
+        <windSpeed unit="kph">40</windSpeed>
+        <danger>true</danger>
+    </dailyForecast>
+    <dailyForecast/>
+</forecast>
+

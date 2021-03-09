@@ -24,3 +24,26 @@
 - [Github Markdown](https://guides.github.com/features/mastering-markdown/) guides
 
 ---
+
+# XML
+
+### Namespace
+
+![img/namespace.png](img/namespace.png)
+
+### Schema
+
+![img/schema.png](img/schema.png)
+
+#### Tools
+
+- [Freeformater Tool](https://www.freeformatter.com/xml-formatter.html)
+
+## Documentating XML
+
+![img/XML1.png](img/XML1.png)
+![img/XML2.png](img/XML2.png)
+![img/XML3.png](img/XML3.png)
+![img/XML4.png](img/XML4.png)
+![img/XML5.png](img/XML5.png)
+![img/XML6.png](img/XML6.png)

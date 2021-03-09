@@ -1,21 +1,30 @@
 {
-    "forecast":[
+    "longitude": 47.60,
+    "latitude": 122.33,
+    "forecasts": [
         {
-            "Monday": {
-                "description": "sunny",
-                "maxTemp": 22,
-                "minTemp": 20,
-                "windSpeed": 12,
-                "danger": false
-            },
-            "Tuesday": {
-                "description": "windy",
-                "maxTemp": 22,
-                "minTemp": 20,
-                "windSpeed": 40,
-                "danger": true
-            },
-            "Wednesday": null
+            "date": "2015-09-01",
+            "description": "sunny",
+            "maxTemp": 22,
+            "minTemp": 20,
+            "windSpeed": 12,
+            "danger": false
+        },
+        {
+            "date": "2015-09-02",
+            "description": "overcast",
+            "maxTemp": 21,
+            "minTemp": 17,
+            "windSpeed": 15,
+            "danger": false
+        },
+        {
+            "date": "2015-09-03",
+            "description": "raining",
+            "maxTemp": 20,
+            "minTemp": 18,
+            "windSpeed": 13,
+            "danger": false
         }
     ]
 }

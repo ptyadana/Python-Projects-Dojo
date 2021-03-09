@@ -154,7 +154,7 @@ If there is an issue of Cross-Origin Request Blocked on firefox testing, [tempor
 
 ![img/DTD3.png](img/DTD3.png)
 
-### Declaring Elements in DTD
+### 8.1) Declaring Elements in DTD
 
 ![img/DTD4.png](img/DTD4.png)
 
@@ -162,7 +162,7 @@ Example :
 ![img/DTD5.png](img/DTD5.png)
 ![img/DTD6.png](img/DTD6.png)
 
-### Declaring Attributes in DTD
+### 8.2) Declaring Attributes in DTD
 
 ![img/DTD7.png](img/DTD7.png)
 ![img/DTD8.png](img/DTD8.png)
@@ -187,3 +187,52 @@ Example: Below basically declare the rules that BusinessCard element needs to fo
 ## Validation XML definition
 
 - https://www.xmlvalidation.com/
+
+---
+
+# 9) XML Schema
+
+- Alternative way of specifying rules to DTDs
+- Provide way to constrain XML document content
+- Written in XML syntax
+- Similar to DTDs, but more powerful and robust
+  - Finar level of control than DTDs allow
+  - Schema and XML files are always stored separately
+
+## XML Anatomy
+
+![XML1.png](img/XML1.png)
+
+## 9.1) Declaring Elements in Schema
+
+![XML2.png](img/XML2.png)
+
+## 9.1.1) Simple Schema Type
+
+![XML3.png](img/XML3.png)
+![XML4.png](img/XML4.png)
+![XML5.png](img/XML5.png)
+![XML6.png](img/XML6.png)
+![XML7.png](img/XML7.png)
+
+## 9.1.2) Complex Schema Type
+
+![XML8.png](img/XML8.png)
+![XML9.png](img/XML9.png)
+![XML10.png](img/XML10.png)
+![XML11.png](img/XML11.png)
+![XML12.png](img/XML12.png)
+
+## 9.2) Declaring Attributes in XML Schema
+
+![XML13.png](img/XML13.png)
+![XML14.png](img/XML14.png)
+![XML15.png](img/XML15.png)
+![XML16.png](img/XML16.png)
+
+## Testing using https://www.xmlvalidation.com/
+
+- go to https://www.xmlvalidation.com/
+- upload XML file
+- tick `Validate against external XML schema` checkbox and click Validate.
+- upload XSD file and validate it.

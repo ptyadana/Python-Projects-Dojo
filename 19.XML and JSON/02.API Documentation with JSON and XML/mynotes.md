@@ -47,3 +47,12 @@
 ![img/XML4.png](img/XML4.png)
 ![img/XML5.png](img/XML5.png)
 ![img/XML6.png](img/XML6.png)
+
+# Documentation Tools
+
+- Swagger 2.0, ReadMe.io
+
+# References for Next steps
+
+- [I'd Rather Be Writing](https://idratherbewriting.com/)
+- check existing API documentations like stripe api

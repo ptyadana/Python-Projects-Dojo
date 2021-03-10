@@ -111,3 +111,18 @@ When we save the information from crawler as file, there are 3 different ways.
   `'article_crawler.pipelines.CheckItemPipeline': 100,`
   `'article_crawler.pipelines.CleanDatePipeline': 200,`
   `}`
+
+# Advanced Techniques
+
+## Get and Post Form data
+
+- we can get the information through GET and POST form data.
+
+## Missing information on page
+
+- if you can't find data that you want to scrape, check the network transactions (`Network tab of Development tools`)
+- submit the form and observe `Request` and `Response` values.
+
+## Sitemaps and robots.txt
+
+- In `settings.py`, we can change the setting of `ROBOTSTXT_OBEY = True` whether to obey rule or not.

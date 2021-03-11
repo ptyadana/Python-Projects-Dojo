@@ -126,3 +126,19 @@ When we save the information from crawler as file, there are 3 different ways.
 ## Sitemaps and robots.txt
 
 - In `settings.py`, we can change the setting of `ROBOTSTXT_OBEY = True` whether to obey rule or not.
+
+# Browser Automation with Selenium
+
+- `pip install scrapy-selenium`
+- download a browser driver file: https://chromedriver.chromium.org/downloads
+
+## Running Selenium
+
+- Scrapy code => Scrapy-Selenium => Selenium => Driver File => Web Browser
+- in `settings.py` file,
+  - `SELENIUM_DRIVER_NAME = 'chrome'`
+  - `SELENIUM_DRIVER_EXECUTABLE_PATH = '../chromedriver'`
+  - `SELENIUM_DRIVER_ARGUMENTS = ['-headless']`
+  - `DOWNLOADER_MIDDLEWARES = {`
+    `'scrapy_selenium.SeleniumMiddleware': 800,`
+    `}`
